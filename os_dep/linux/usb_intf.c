@@ -281,6 +281,7 @@ static struct usb_device_id rtw_usb_id_tbl[] ={
 	{USB_DEVICE(0x0411, 0x025d),.driver_info = RTL8812}, /* Buffalo - WI-U3-866D */
 	{USB_DEVICE(0x0bda, 0x8812),.driver_info = RTL8812}, /* Netis WF2190 */
 	{USB_DEVICE(0x2604, 0x0012),.driver_info = RTL8812}, /* Tenda U12 */
+	{USB_DEVICE(0x148f, 0x9097),.driver_info = RTL8812}, /* Ralink - Amped */
 #endif
 
 #ifdef CONFIG_RTL8821A
